@@ -1,0 +1,42 @@
+@media screen and (max-width:1000px) {
+   
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0 ;
+    }
+    .slider{
+        height: 23vh;
+    }
+    nav ul{
+        justify-content: center;
+       height: 34px;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        margin: 12px 16px;
+    }
+   .cards{ 
+  overflow: scroll;
+  overflow-y: hidden;
+   }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+   
+    .card-item img {
+        width: 140px;
+        overflow: scroll;
+    }
+}
